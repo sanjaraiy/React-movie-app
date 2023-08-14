@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: rgb(64, 78, 173);
+  padding: 5px;
+}
+h1 {
+  color: #fff;
+}
