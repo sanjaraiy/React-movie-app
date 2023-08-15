@@ -8,9 +8,10 @@ const App = () => {
     <div className="App">
       <Header></Header>
       <div className="main">
-        {movies.map((ele) => {
+        {movies.map((ele ,idx) => {
           return (
-            <Movie title={ele.Title} year={ele.Year} img={ele.Poster}></Movie>
+          
+            <Movie key={idx} title={ele.Title} year={ele.Year} img={ele.Poster}></Movie>
           );
         })}
       </div>
